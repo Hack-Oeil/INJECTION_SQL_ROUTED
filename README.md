@@ -5,8 +5,9 @@
 
 
 # faille SQL, Injection SQL routed
-Dans cet exercice il y a des catégories de produits, parviendrez vous à obtenir autre chose que des produits ?
-Vous devez afficher le hash de l'admin, si le hash se trouve sur la page en sortie vous obtiendrez le flag.
+Dans cet exercice il y a des catégories de produits.
+Parviendrez vous à obtenir autre chose que des produits ?
+Vous devez vous connecter avec le compte admin pour obtenir le flag.
 
 -----------
 
