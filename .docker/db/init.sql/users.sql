@@ -1,10 +1,23 @@
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+-- --------------------------------------------------------
+
 create table user (
 	id INT AUTO_INCREMENT PRIMARY KEY,
 	firstname VARCHAR(50),
 	lastname VARCHAR(50),
 	email VARCHAR(50),
 	password VARCHAR(50)
-);
+) DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
 insert into user (id, firstname, lastname, email, password) values (1, 'Bride', 'Leckie', 'bleckie0@nsw.gov.au', '4d1e172265d9037a1de3d6d9c11948ba36871b79');
 insert into user (id, firstname, lastname, email, password) values (2, 'Dalston', 'Haysham', 'dhaysham1@rakuten.co.jp', '7ebfed27ddc491277c348bf505028e2f6d3784cf');
 insert into user (id, firstname, lastname, email, password) values (3, 'Admin', '-', 'admin@boutik.com', 'd8cd10b920dcbdb5163ca0185e402357bc27c265');
